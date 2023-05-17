@@ -35,14 +35,12 @@ const Navbar = () => {
       {nav && (
         <div className={`absolute flex flex-col justify-center items-center right-0 ${nav ? "top-16" : "top-0"} w-full bg-black rounded-lg py-2 px-4`}>
           <div className="flex flex-col justify-center items-center w-full rounded-lg py-2 px-4 bg-gradient-to-b from-yellow-300 to-yellow-500">
-            <ul className='flex flex-col gap-5'>
-              <li>START</li>
-              <li>Om oss</li>
-              <li>Lunchmeny</li>
-              <li>Catering</li>
-              <li>Bildgalleri</li>
-              <li>Hitta till oss</li>
-              <li>Kontakta oss</li>
+            <ul className='flex flex-col gap-6 mt-4 mb-4'>
+              <Link to={'/'}><li className='text-xl'>START</li></Link>
+              <li className='text-xl'>Om oss</li>
+              <li className='text-xl'>Lunchmeny</li>
+              <li className='text-xl'>Catering</li>
+              <li className='text-xl'>Hitta till oss</li>
             </ul>
           </div>
        </div>
@@ -52,13 +50,21 @@ const Navbar = () => {
     // ^ On mobile device
     ) : (
     // Bigger screen navbar
+    <div className='flex w-full items-center justify-center'>
     
-    <nav>
-      <p>Laptop</p>
-      <a href="https://ibb.co/pdRKWxw"><img src="https://i.ibb.co/YhydD3Q/JJS.png" alt="JJS" width='70px' className='mr-3' /></a>
+    <nav className='flex w-full max-w-5xl h-fit justify-between items-center bg-black rounded-full mt-2 mr-4 ml-4'>
+      <Link to='/'><img src="https://i.ibb.co/MRksVVP/LOGO.png" width='80px' height='auto' alt="LOGO" className='ml-3 lg:ml-5' /></Link>
+      
+      <ul className='w-fit h-full mr-3 flex sm:gap-5 lg:gap-6 lg:mr-7'>
+        <li className='navlinks md:text-xl'>Lunchmeny</li>
+        <li className='navlinks md:text-xl'>Catering</li>
+        <li className='navlinks md:text-xl'>Om oss</li>
+        <li className='navlinks md:text-xl'>Hitta till oss</li>
+      </ul>
 
-      <div className='mr-5 h-full w-fit text-white text-xl hover:cursor-pointer'>| | |</div>
     </nav>
+    </div>
+    
     )}
     </>
   )
