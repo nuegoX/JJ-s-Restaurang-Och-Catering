@@ -52,11 +52,11 @@ const Navbar = () => {
     // Bigger screen navbar
     <div className='flex w-full items-center justify-center'>
     
-    <nav className='flex w-full max-w-5xl h-fit justify-between items-center bg-black rounded-full mt-2 mr-4 ml-4'>
+    <nav className='flex w-full max-w-5xl h-fit justify-between items-center bg-black rounded-t-[40px] mt-2 mr-4 ml-4'>
       <Link to='/'><img src="https://i.ibb.co/MRksVVP/LOGO.png" width='80px' height='auto' alt="LOGO" className='ml-3 lg:ml-5' /></Link>
       
       <ul className='w-fit h-full mr-3 flex sm:gap-5 lg:gap-6 lg:mr-7'>
-        <li className='navlinks md:text-xl'>Lunchmeny</li>
+        <Link to='/lunchmeny'><li className='navlinks md:text-xl'>Lunchmeny</li></Link>
         <li className='navlinks md:text-xl'>Catering</li>
         <li className='navlinks md:text-xl'>Om oss</li>
         <li className='navlinks md:text-xl'>Hitta till oss</li>

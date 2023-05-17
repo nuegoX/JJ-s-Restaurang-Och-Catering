@@ -1,0 +1,27 @@
+import React, { useEffect } from 'react';
+
+const Lunchmeny: React.FC = () => {
+  useEffect(() => {
+    window.onload = function () {
+      (function () {
+        var objMatOchMat = new window.MatOchMat();
+        objMatOchMat.insertLunchMenu('cShcWkTul9O81cS92Rsmcw==');
+      })();
+    };
+  }, []);
+
+  return (
+    <div className='flex justify-center items-center w-full max-w-5xl m-auto'>
+      <div className="matochmat-wrap pl-10 pr-10 bg-black text-white border-t border-orange-300">
+        <div className="no-js-fallback">
+          <h3>J&J Restaurang & Catering</h3>
+          <a href="https://www.matochmat.se/rest/menu?pdf=true&restaurant=cShcWkTul9O81cS92Rsmcw%3D%3D" target="_blank">
+            Visa veckans meny (PDF)
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Lunchmeny;
