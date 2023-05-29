@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Start from './Pages/Start';
 import Navbar from './Components/Navbar';
 import Lunchmeny from './Pages/Lunchmeny';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Start />} />
         <Route path='/lunchmeny' element={<Lunchmeny />} />
       </Routes>
+      <Footer />
     </>
   );
 }

@@ -36,11 +36,11 @@ const Navbar = () => {
         <div className={`h-full absolute flex flex-col justify-center items-center right-0 ${nav ? "top-16" : "top-0"} w-full bg-black rounded-lg py-2 px-4`}>
           <div className="mb-[200px] box-border h-[50%] flex flex-col justify-center items-center w-full rounded-lg py-2 px-4 bg-gradient-to-b from-yellow-300 to-yellow-500">
             <ul className='flex flex-col gap-6 mt-4 mb-4'>
-              <Link to={'/'}><li className='text-3xl'>START</li></Link>
-              <li className='text-3xl'>Om oss</li>
-              <li className='text-3xl'>Lunchmeny</li>
-              <li className='text-3xl'>Catering</li>
-              <li className='text-3xl'>Hitta till oss</li>
+              <Link to={'/'}><li className='text-3xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>START</li></Link>
+              <li className='text-3xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Om oss</li>
+              <li className='text-3xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Lunchmeny</li>
+              <li className='text-3xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Catering</li>
+              <li className='text-3xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Hitta till oss</li>
             </ul>
           </div>
        </div>
@@ -56,10 +56,10 @@ const Navbar = () => {
       <Link to='/'><img src="https://i.ibb.co/MRksVVP/LOGO.png" width='80px' height='auto' alt="LOGO" className='ml-3 lg:ml-5' /></Link>
       
       <ul className='w-fit h-full mr-3 flex sm:gap-5 lg:gap-6 lg:mr-7'>
-        <Link to='/lunchmeny'><li className='navlinks md:text-xl'>Lunchmeny</li></Link>
-        <li className='navlinks md:text-xl'>Catering</li>
-        <li className='navlinks md:text-xl'>Om oss</li>
-        <li className='navlinks md:text-xl'>Hitta till oss</li>
+        <Link to='/lunchmeny'><li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]'>Lunchmeny</li></Link>
+        <li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]'>Catering</li>
+        <li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]'>Om oss</li>
+        <li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]'>Hitta till oss</li>
       </ul>
 
     </nav>

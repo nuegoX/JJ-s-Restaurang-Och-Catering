@@ -8,10 +8,10 @@ interface Types {
 
 const StartTile = ({Title, Description}:Types) => {
   return (
-    <div className='flex flex-col justify-center items-center w-[360px] pt-10 pb-10'>
-        <img src='http://jjrestaurang.se/ImageSlider/1568/201311041383570893HrxLiVKW.jpg' className='w-[230px] h-[230px] object-cover rounded-full'></img>
-        <p className='text-3xl'>{Title}</p>
-        <p className='flex justify-center items-center w-[250px]'>{Description}</p>
+    <div className='flex flex-col w-[230px] md:w-[350px] lg:w-[220px] items-center mt-10'>
+      <img src='http://jjrestaurang.se/ImageSlider/1568/201311041383570893HrxLiVKW.jpg' className='w-[170px] h-[170px] sm:h-[225px] sm:w-[225px] md:h-[320px] md:w-[320px] lg:w-[215px] lg:h-[215px] rounded-full object-cover'></img>
+      <p className='text-3xl mb-3 text-white'>{Title}</p>
+      <p className='text-white'>{Description}</p>
     </div>
   )
 }
