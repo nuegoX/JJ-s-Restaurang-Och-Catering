@@ -12,7 +12,7 @@ const Lunchmeny = () => {
   .then(response => response.json())
   .then(data => {
     console.log(data.data.raw[0].content);
-    // You can access and work with the parsed JSON data here
+    // access and work with the parsed JSON data here
   })
   .catch(error => {
     console.log('An error occurred:', error);

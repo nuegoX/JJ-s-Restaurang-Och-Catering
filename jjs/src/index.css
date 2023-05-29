@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .navlinks {
 
     color: white;
+}
+body {
+    background-color: white;
 }

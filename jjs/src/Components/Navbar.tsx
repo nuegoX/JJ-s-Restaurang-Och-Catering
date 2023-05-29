@@ -6,7 +6,7 @@ const Navbar = () => {
     // State for whether the navbar is open or closed and a state that changes it.
     const [nav, setNav] = useState(false);
     const handleNav = () => setNav(!nav);
-
+    
     // State for whether the user is on a mobile device.
     const [onmobile, setOnmobile] = useState(window.innerWidth <= 768);
 
@@ -33,14 +33,14 @@ const Navbar = () => {
       <Link to='/'><img src="https://i.ibb.co/MRksVVP/LOGO.png" width='70px' height='auto' alt="LOGO" className='ml-3' /></Link>
       <img alt="svgImg" onClick={handleNav} className={`w-[40px] mr-3 transition-all ${nav && 'rotate-[130deg]'}`} src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNjQiIGhlaWdodD0iNjQiCnZpZXdCb3g9IjAgMCA2NCA2NCIKc3R5bGU9ImZpbGw6I0ZGRkZGRjsiPgo8cGF0aCBkPSJNNyAyOXY1bDUwIDF2LTdMNyAyOXpNNyAxMXY2aDUwdi02SDd6TTcgNDZ2N2w1MC0xdi01TDcgNDZ6Ij48L3BhdGg+Cjwvc3ZnPg=="/>
       {nav && (
-        <div className={`absolute flex flex-col justify-center items-center right-0 ${nav ? "top-16" : "top-0"} w-full bg-black rounded-lg py-2 px-4`}>
-          <div className="flex flex-col justify-center items-center w-full rounded-lg py-2 px-4 bg-gradient-to-b from-yellow-300 to-yellow-500">
+        <div className={`h-full absolute flex flex-col justify-center items-center right-0 ${nav ? "top-16" : "top-0"} w-full bg-black rounded-lg py-2 px-4`}>
+          <div className="mb-[200px] box-border h-[50%] flex flex-col justify-center items-center w-full rounded-lg py-2 px-4 bg-gradient-to-b from-yellow-300 to-yellow-500">
             <ul className='flex flex-col gap-6 mt-4 mb-4'>
-              <Link to={'/'}><li className='text-xl'>START</li></Link>
-              <li className='text-xl'>Om oss</li>
-              <li className='text-xl'>Lunchmeny</li>
-              <li className='text-xl'>Catering</li>
-              <li className='text-xl'>Hitta till oss</li>
+              <Link to={'/'}><li className='text-3xl'>START</li></Link>
+              <li className='text-3xl'>Om oss</li>
+              <li className='text-3xl'>Lunchmeny</li>
+              <li className='text-3xl'>Catering</li>
+              <li className='text-3xl'>Hitta till oss</li>
             </ul>
           </div>
        </div>
