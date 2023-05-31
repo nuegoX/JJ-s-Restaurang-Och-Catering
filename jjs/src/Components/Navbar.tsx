@@ -55,9 +55,9 @@ const Navbar = () => {
       <Link to='/'><img src="https://i.ibb.co/MRksVVP/LOGO.png" width='80px' height='auto' alt="LOGO" className='ml-3 lg:ml-5' /></Link>
       
       <ul className='w-fit h-full mr-3 flex sm:gap-5 lg:gap-6 lg:mr-7'>
-        <Link to={'/lunchmeny'}><li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]'>Lunchmeny</li></Link>
-        <Link to={'/catering'}><li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]'>Catering</li></Link>
-        <Link to={'/hitta'}><li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]'>Hitta till oss</li></Link>
+        <Link to={'/lunchmeny'}><li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)] hover:text-orange-200 transition-all'>Lunchmeny</li></Link>
+        <Link to={'/catering'}><li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)] hover:text-orange-200 transition-all'>Catering</li></Link>
+        <Link to={'/hitta'}><li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)] hover:text-orange-200 transition-all'>Hitta till oss</li></Link>
       </ul>
 
     </nav>

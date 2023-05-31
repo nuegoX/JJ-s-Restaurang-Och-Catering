@@ -33,7 +33,7 @@ const Start = () => {
           <StartTile Title={'HÄR FINNS VI'} Description={'Vi finns sedan i Länsstyrelsen hus. Välkomna till oss!'} />
           <StartTile Title={'DAGENS LUNCH'} Description={'I dagens lunch för 120:- ingår stor sallads buffé, dagens soppa, hembakat bröd, måltidsdricka och kaffe.'} />
           <StartTile Title={'OM MATEN'} Description={'Hos oss kan de flesta hittar något som faller i smaken. Internationell vällagad mat med inspiration från Sydamerika, Asien och framförallt alltid vällagad Svensk husmanskost.'} />
-          <StartTile Title={'KONTAKTA OSS'} Description={'Vill du beställa catering, eller bara boka ett bord? Välkommen att kontakta oss på telefon 0920-211 404.'} />
+          <StartTile Title={'KONTAKTA OSS'} Description={'Vill du beställa catering, eller bara boka ett bord? Välkommen att kontakta oss på telefon 079-055-23-92.'} />
         </div>
 
 
