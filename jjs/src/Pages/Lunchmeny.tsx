@@ -1,35 +1,29 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Lunchmeny = () => {
-  useEffect(() => {
-    window.onload = function () {
-      (function () {
+    const [onmobile, setOnmobile] = useState(window.innerWidth <= 768);
 
-      })();
-    };
-  }, []);
-  fetch('https://www.matochmat.se/rest/menu/?restaurant=cShcWkTul9O81cS92Rsmcw==')
-  .then(response => response.json())
-  .then(data => {
-    console.log(data.data.raw[0].content);
-    // access and work with the parsed JSON data here
-  })
-  .catch(error => {
-    console.log('An error occurred:', error);
-  });
+    const [deviceWidth, setDeviceWidth] = useState(window.innerWidth);
+    
+    useEffect(() => {
+      function handleResize() {
+        setDeviceWidth(window.innerWidth);
+        setOnmobile(window.innerWidth <= 768);
+      }
 
-  return (
-    <div className='flex justify-center items-center w-full max-w-5xl m-auto'>
-      <div className="matochmat-wrap pl-10 pr-10 bg-black text-white border-t border-orange-300">
-        <div className="no-js-fallback">
-          <h3>J&J Restaurang & Catering</h3>
-          <a href="https://www.matochmat.se/rest/menu?pdf=true&restaurant=cShcWkTul9O81cS92Rsmcw%3D%3D" target="_blank">
-            Visa veckans meny (PDF)
-          </a>
+      window.addEventListener('resize', handleResize);
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
+    return (
+      <div className='flex w-full items-center justify-center'>
+       <div className={`p-3 text-center border-t border-orange-300 flex flex-col w-full ${!onmobile ? 'max-w-5xl mr-4 ml-4 mt-0' : ''} h-fit justify-center md:justify-between items-center pb-40 md:pb-10 bg-black ${onmobile && "bg-[url('http://jjrestaurang.se/ImageSlider/1568/201311041383570893HrxLiVKW.jpg')] h-[90vh] object-cover bg-cover"}`}>
+          <h1 className='text-white text-3xl sm:text-4xl mt-10'>Veckans lunchmeny</h1>
+          
         </div>
-      </div>
-    </div>
-  );
-};
+        </div>
+      )
+}
 
-export default Lunchmeny;
+export default Lunchmeny

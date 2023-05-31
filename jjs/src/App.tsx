@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar';
 import Lunchmeny from './Pages/Lunchmeny';
 import Footer from './Components/Footer';
 import Catering from './Pages/Catering';
+import Hitta from './Pages/Hitta';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<Start />} />
         <Route path='/lunchmeny' element={<Lunchmeny />} />
         <Route path='/catering' element={<Catering />} />
+        <Route path='/hitta' element={<Hitta />} />
       </Routes>
       <Footer />
     </>

@@ -22,7 +22,7 @@ const Start = () => {
     <div className='flex w-full items-center justify-center'>
     <div className={`flex flex-col w-full ${!onmobile && 'max-w-5xl mr-4 ml-4 mt-0'} h-fit justify-between items-center bg-black`}>
       
-      <div className={`${!onmobile && 'p-0'} w-full box-border bg-orange-500 flex flex-col items-center`}>
+      <div className={`${!onmobile && 'p-0'} w-full box-border bg-orange-500 flex flex-col items-center mt-[70px] md:mt-0`}>
         <h1 className='text-white text-xl sm:text-2xl md:text-3xl pt-1 pb-2 [text-shadow:_0_2px_0_rgb(0_0_0_/_40%)]'>Stationsgatan 5</h1>
 
         <div className="bg-[url('http://jjrestaurang.se/ImageSlider/1568/201311041383570893HrxLiVKW.jpg')] object-cover h-[500px] w-full bg-cover flex justify-center items-center">
