@@ -41,8 +41,8 @@ const Start = () => {
         <div className='mt-10 border box-border p-10 rounded-lg'>
           <p className='text-white text-center text-xl'>VÅRA SAMARBETSPARTNERS</p>
             <div className='flex justify-between gap-10'>
-              <img src='http://jjrestaurang.se/ElemImage/svenskcater_220.jpg' className='w-[100px] sm:w-[200px]'></img>
-              <img src='http://jjrestaurang.se/ElemImage/lappsimon(3)_220.jpg' className='w-[100px] sm:w-[200px]'></img>
+              <img src='https://i.ibb.co/mSVj65B/svenskcater-220.png' alt='Svensk Cater' loading="lazy" className='w-[100px] sm:w-[200px]'></img>
+              <img src='https://i.ibb.co/fdmx6cg/lappsimon-3-220.png' alt='Lapp Simon' loading="lazy" className='w-[100px] sm:w-[200px]'></img>
             </div>
         </div>
       <div>
