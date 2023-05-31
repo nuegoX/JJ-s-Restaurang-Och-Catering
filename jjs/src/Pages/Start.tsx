@@ -31,12 +31,20 @@ const Start = () => {
 
         <div className='w-full h-fit bg-black flex flex-col items-center gap-5 lg:gap-9 lg:items-start lg:flex-row justify-center'>
           <StartTile Title={'HÄR FINNS VI'} Description={'Vi finns sedan i Länsstyrelsen hus. Välkomna till oss!'} />
-          <StartTile Title={'DAGENS LUNCH'} Description={'I dagens lunch för 89:- ingår stor sallads buffé, dagens soppa, hembakat bröd, måltidsdricka och kaffe.'} />
+          <StartTile Title={'DAGENS LUNCH'} Description={'I dagens lunch för 120:- ingår stor sallads buffé, dagens soppa, hembakat bröd, måltidsdricka och kaffe.'} />
           <StartTile Title={'OM MATEN'} Description={'Hos oss kan de flesta hittar något som faller i smaken. Internationell vällagad mat med inspiration från Sydamerika, Asien och framförallt alltid vällagad Svensk husmanskost.'} />
           <StartTile Title={'KONTAKTA OSS'} Description={'Vill du beställa catering, eller bara boka ett bord? Välkommen att kontakta oss på telefon 0920-211 404.'} />
         </div>
-      </div>
 
+
+        </div>
+        <div className='mt-10 border box-border p-10 rounded-lg'>
+          <p className='text-white text-center text-xl'>VÅRA SAMARBETSPARTNERS</p>
+            <div className='flex justify-between gap-10'>
+              <img src='http://jjrestaurang.se/ElemImage/svenskcater_220.jpg' className='w-[100px] sm:w-[200px]'></img>
+              <img src='http://jjrestaurang.se/ElemImage/lappsimon(3)_220.jpg' className='w-[100px] sm:w-[200px]'></img>
+            </div>
+        </div>
       <div>
 
       </div>

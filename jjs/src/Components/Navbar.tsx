@@ -39,7 +39,7 @@ const Navbar = () => {
               <Link to={'/'}><li className='text-3xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>START</li></Link>
               <li className='text-3xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Om oss</li>
               <li className='text-3xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Lunchmeny</li>
-              <li className='text-3xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Catering</li>
+              <Link to={'/catering'}><li className='text-3xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Catering</li></Link>
               <li className='text-3xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>Hitta till oss</li>
             </ul>
           </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
       
       <ul className='w-fit h-full mr-3 flex sm:gap-5 lg:gap-6 lg:mr-7'>
         <Link to='/lunchmeny'><li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]'>Lunchmeny</li></Link>
-        <li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]'>Catering</li>
+        <Link to='/catering'><li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]'>Catering</li></Link>
         <li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]'>Om oss</li>
         <li className='navlinks md:text-xl [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]'>Hitta till oss</li>
       </ul>
