@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JJ-s-Restaurang-Och-Catering/static/css/main.a809aa85.css",
+    "main.js": "/JJ-s-Restaurang-Och-Catering/static/js/main.6cc7f6ef.js",
+    "index.html": "/JJ-s-Restaurang-Och-Catering/index.html",
+    "main.a809aa85.css.map": "/JJ-s-Restaurang-Och-Catering/static/css/main.a809aa85.css.map",
+    "main.6cc7f6ef.js.map": "/JJ-s-Restaurang-Och-Catering/static/js/main.6cc7f6ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a809aa85.css",
+    "static/js/main.6cc7f6ef.js"
+  ]
+}
