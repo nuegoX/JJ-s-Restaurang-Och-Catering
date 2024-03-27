@@ -20,37 +20,7 @@ const Start = () => {
       }, []);
   return (
     <div className='flex w-full items-center justify-center'>
-    <div className={`flex flex-col w-full ${!onmobile && 'max-w-5xl mr-4 ml-4 mt-0'} h-fit justify-between items-center bg-black`}>
-      
-      <div className={`${!onmobile && 'p-0'} w-full box-border bg-orange-500 flex flex-col items-center mt-[70px] md:mt-0`}>
-        <h1 className='text-white text-xl sm:text-2xl md:text-3xl pt-1 pb-2 [text-shadow:_0_2px_0_rgb(0_0_0_/_40%)]'>Stationsgatan 5</h1>
-
-        <div className="bg-[url('https://i.ibb.co/3kv0z7Z/IMG-1570.jpg')] object-cover h-[500px] w-full bg-cover flex justify-center items-center">
-          <p className='text-white text-3xl sm:text-5xl md:text-6xl lg:text-7xl mb-20 [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]'>J&J Restaurang & Catering</p>
-        </div>
-
-        <div className='w-full h-fit bg-black flex flex-col items-center gap-5 lg:gap-9 lg:items-start lg:flex-row justify-center'>
-          <StartTile SourceImage='https://i.ibb.co/gSDbpGJ/IMG-1571.jpg' Title={'HÄR FINNS VI'} Description={'Vi finns sedan i Länsstyrelsen hus. Välkomna till oss!'} />
-          <StartTile SourceImage='https://i.ibb.co/3kv0z7Z/IMG-1570.jpg' Title={'DAGENS LUNCH'} Description={'I dagens lunch för 120:- ingår stor sallads buffé, dagens soppa, hembakat bröd, måltidsdricka och kaffe.'} />
-          <StartTile SourceImage='https://i.ibb.co/gSDbpGJ/IMG-1571.jpg' Title={'OM MATEN'} Description={'Hos oss kan de flesta hittar något som faller i smaken. Internationell vällagad mat med inspiration från Sydamerika, Asien och framförallt alltid vällagad Svensk husmanskost.'} />
-          <StartTile SourceImage='https://i.ibb.co/gSDbpGJ/IMG-1571.jpg' Title={'KONTAKTA OSS'} Description={'Vill du beställa catering, eller bara boka ett bord? Välkommen att kontakta oss på telefon 079-055-23-92.'} />
-        </div>
-
-
-        </div>
-        <div className='mt-10 border box-border p-10 rounded-lg'>
-          <p className='text-white text-center text-xl'>VÅRA SAMARBETSPARTNERS</p>
-            <div className='flex justify-between gap-10'>
-              <img src='https://i.ibb.co/mSVj65B/svenskcater-220.png' alt='Svensk Cater' loading="lazy" className='w-[100px] sm:w-[200px]'></img>
-              <img src='https://i.ibb.co/fdmx6cg/lappsimon-3-220.png' alt='Lapp Simon' loading="lazy" className='w-[100px] sm:w-[200px]'></img>
-            </div>
-        </div>
-      <div>
-
-      </div>
-      
-    
-    </div>
+      <img src='https://i.ibb.co/grXHXg4/jjrestaurang2-1-220-upscayl-16x-Real-ESRGAN-General-x4-v3.png' alt='' className='w-full h-[600px] bg-cover object-cover'></img>
     </div>
   )
 }

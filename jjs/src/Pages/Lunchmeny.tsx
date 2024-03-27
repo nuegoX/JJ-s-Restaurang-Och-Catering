@@ -20,7 +20,7 @@ const Lunchmeny = () => {
     return (
       <>
       <div className='flex w-full items-center justify-center'>
-        <div className={`mt-[70px] md:mt-0 p-3 border-t border-orange-300 flex flex-col w-full ${!onmobile && 'max-w-5xl mr-4 ml-4 mt-0'} h-fit justify-center md:justify-between items-center pb-40 md:pb-10 bg-black`}>
+        <div className={`mt-[70px] md:mt-0 p-3 border-orange-300 flex flex-col w-full ${!onmobile && 'max-w-5xl mr-4 ml-4 mt-0'} h-fit justify-center md:justify-between items-center pb-40 md:pb-10 bg-#667079`}>
           <h1 className='text-white text-3xl sm:text-4xl mt-10'>Veckans lunchmeny</h1>
           <div className='flex flex-col w-full'>
             <FoodDish Day={'Måndag'} Dish={'- Torsk med ägg & persiljasås.'} Dish2={'- Korv Stroganoff.'} Dish3={'- Morotssoppa.'} />

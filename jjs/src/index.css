@@ -4,6 +4,10 @@
 
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: 0.1s;
 }
 
 .navlinks {
@@ -11,5 +15,5 @@
     color: white;
 }
 body {
-    background-color: rgba(0, 0, 0, 0.877);
+    background-color: rgb(0, 10, 19);
 }
