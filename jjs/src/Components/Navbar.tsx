@@ -50,16 +50,16 @@ const Navbar = () => {
     ) : (
     // Bigger screen navbar
     <div className='flex w-full items-center justify-center bg-black lg:h-28 md:h-20 border-b-[1px] border-yellow-400'>
-      <Link to='/'><img src="https://i.ibb.co/MRksVVP/LOGO.png" width='100px' height='auto' alt="LOGO" className='ml-3 lg:ml-5 md:w-20 lg:w-28 border-2 rounded-full border-black hover:border-yellow-400 hover:bg-yellow-500' /></Link>
+      <Link to='/'><img src="https://i.ibb.co/MRksVVP/LOGO.png" width='100px' height='auto' alt="LOGO" className='ml-3 lg:ml-5 md:w-20 lg:w-28 hover:cursor-default' /></Link>
 
       <div className='flex h-full w-fit gap-8 lg:gap-12 justify-between items-center pl-8 pr-8'> 
-        <Link to={'/'} className='h-full flex justify-center items-center text-xl lg:text-2xl text-white border-b-2 border-black hover:border-yellow-200 hover:text-yellow-200'>Start</Link>
-        <Link to={'/lunchmeny'} className='h-full flex justify-center items-center text-xl lg:text-2xl text-white border-b-2 border-black hover:border-yellow-200 hover:text-yellow-200'>Lunchmeny</Link>
-        <Link to={'/catering'} className='h-full flex justify-center items-center text-xl lg:text-2xl text-white border-b-2 border-black hover:border-yellow-200 hover:text-yellow-200'>Catering</Link>
-        <Link to={'/hitta'} className='h-full flex justify-center items-center text-xl lg:text-2xl text-white border-b-2 border-black hover:border-yellow-200 hover:text-yellow-200'>Hitta till oss</Link>
+        <Link to={'/'} className='h-full flex justify-center items-center text-xl lg:text-2xl text-white border-b-2 border-black hover:border-yellow-200 hover:text-yellow-200 hover:cursor-default'>Start</Link>
+        <Link to={'/lunchmeny'} className='h-full flex justify-center items-center text-xl lg:text-2xl text-white border-b-2 border-black hover:border-yellow-200 hover:text-yellow-200 hover:cursor-default'>Lunchmeny</Link>
+        <Link to={'/catering'} className='h-full flex justify-center items-center text-xl lg:text-2xl text-white border-b-2 border-black hover:border-yellow-200 hover:text-yellow-200 hover:cursor-default'>Catering</Link>
+        <Link to={'/hitta'} className='h-full flex justify-center items-center text-xl lg:text-2xl text-white border-b-2 border-black hover:border-yellow-200 hover:text-yellow-200 hover:cursor-default'>Hitta till oss</Link>
       </div>
 
-      <button className='w-40 h-10 bg-red-500 hover:bg-red-400 text-center rounded-full font-semibold text-gray-200 border-2 border-red-500 hover:border-white'>
+      <button className='w-40 h-10 bg-red-500 hover:bg-red-400 text-center rounded-full font-semibold text-gray-200 border-2 border-red-500 hover:border-white hover:cursor-default'>
         Ring Catering
       </button>
 
